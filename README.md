@@ -1,3 +1,1 @@
-# s416142
-University
-
+# Game of Life written in C++ SFML
