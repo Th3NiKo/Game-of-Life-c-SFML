@@ -8,8 +8,8 @@
 #include <cstring>
 
 
-const int width = 1440; //1280 sf::VideoMode::getDesktopMode().height;
-const int height = 900; //960 Musze zrobic tablice dynamicznie
+const int width = 1440;
+const int height = 900; 
 const int rozmiarX = 12;
 const int rozmiarY = 12;
 
@@ -160,9 +160,7 @@ int main()
 
 
     app.display();
-    // Load a sprite to display
 
-	
 	// Start the game loop
     while (app.isOpen())
     {
@@ -198,8 +196,6 @@ int main()
             }
 
         }
-
-        //MAGIA
 
         //system("cls");
         Sleep(20);
@@ -260,9 +256,6 @@ int main()
         copy(mapaTemp, mapa);
 
 
-        // rysujMape();
-
-
 
 
         // Clear screen
@@ -284,20 +277,6 @@ int main()
                     rectangle.setPosition(p * rozmiarX, o * rozmiarY);
                     app.draw(rectangle);
 
-
-                    /*
-                    sf::Sprite blueSprt;
-                    blueSprt.setTexture(blueTex);
-                    blueSprt.setPosition(p * rozmiarX, o * rozmiarY);
-                    app.draw(blueSprt);
-                    */
-
-                    /*
-                    sf::CircleShape circle;
-                    circle.setFillColor(sf::Color::Blue);
-                    circle.setRadius(rozmiarX/2);
-                    circle.setPosition(p * rozmiarX, o * rozmiarY);
-                    app.draw(circle); */
 
                 }
             }
