@@ -7,7 +7,7 @@ Next two rozmiarX and rozmiarY are for X (width) and Y (height) of each cell.
 <img src="Media_img/tutorial2.png" alt="tutorial 2">
 After running program you can set some variables.
 First one tells how many cells you want to randomize. 
-Next to are connected with game of life behavior. You can customize living and dead rules. You pass numbers without space, one by one.
+Next two are connected with game of life behavior. You can customize living and dead rules. You pass numbers without space, one by one.
 Example for standard game of life is:
 23 
 3
