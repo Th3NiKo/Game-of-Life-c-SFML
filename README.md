@@ -1,5 +1,5 @@
 # Game of Life written in C++ SFML
-Customizable game of life made for learning purposes. Code is not clean (fast wirting).
+Customizable game of life made for learning purposes. Code is not clean (fast writing).
 <h3>How to customize</h3>
 <img src="Media_img/tutorial1.png" alt="tutorial 1">
 Four variables which you can customize to your own choice. First two width and height are for resolution (how many pixels to work with).
